@@ -9,11 +9,11 @@
     <div class="text">
 
       <div class="small-card__description">
-        <p>{{cardTitle}}</p>
+        <p><a [routerLink]="['content', Id]">{{cardTitle}}</a></p>
       </div>
 
       <div class="small-card__title">
-        <h2>{{cardDescription}}</h2>
+        <h2><a [routerLink]="['content', Id]">{{cardDescription}}</a></h2>
       </div>
 
     </div>

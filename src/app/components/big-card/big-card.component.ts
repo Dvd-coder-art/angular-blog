@@ -9,7 +9,11 @@ export class BigCardComponent {
 
   @Input()
   photoCover:string = ""
-  cardTitle:string = "Novo angular lançado"
-  cardDescription:string = "Está versão veio com diversar modificações"
+  @Input()
+  cardTitle:string = ""
+  @Input()
+  cardDescription:string = ""
+  @Input()
+  Id:string = "0"
 
 }

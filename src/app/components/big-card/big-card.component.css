@@ -36,7 +36,7 @@
   color: gray;
 }
 
-.big-card__image > img{
+.big-card__image > a >img {
   height: auto;
   width: 100%;
 }

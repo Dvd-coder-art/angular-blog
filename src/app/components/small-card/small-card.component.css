@@ -16,6 +16,10 @@
   font-size: 15px;
 }
 
+.small-card__title > h2 > a{
+  text-decoration: none;
+}
+
 .small-card__image > img{
   height: auto;
   width: 250px;
@@ -24,8 +28,13 @@
 .small-card__description > p{
   margin-top: 7px;
   font-size: 10px;
-  color: gray;
+  
   text-transform: uppercase;
+}
+
+.small-card__description > p > a{
+  text-decoration: none;
+  color: gray;
 }
 
 .container__small-card__separator{
