@@ -11,6 +11,13 @@
   
 }
 
+
 .container__menu-bar ul > li > a {
   text-decoration: none;
+  transition: 0.2s;
+}
+
+.container__menu-bar > ul > li>a:hover{
+  color: #aa0322;
+  font-weight: 900;
 }
